@@ -1,11 +1,11 @@
-# 🤖 Automatizaciones Cruz Roja
+# Automatizaciones Cruz Roja
 
 Scripts VBScript para automatizar tareas administrativas de RRHH en Cruz Roja.
 Se ejecutan directamente en Windows con doble clic — sin instalar nada extra.
 
 ---
 
-## 📁 Estructura del repositorio
+## Estructura del repositorio
 
 ```
 cruz-roja-automatizaciones/
@@ -16,7 +16,7 @@ cruz-roja-automatizaciones/
 
 ---
 
-## 📋 Scripts
+## Scripts
 
 ### 1. `filtrar_antiguedad.vbs`
 
@@ -72,7 +72,7 @@ Const EMAIL_DESTINATARIO = "correo@ejemplo.com"
 
 ---
 
-## ⚙️ Cómo configurar
+## Cómo configurar
 
 Cada script tiene una sección de configuración al principio claramente marcada.
 Solo hay que cambiar esas constantes; el resto del código no hace falta tocarlo.
@@ -84,7 +84,7 @@ Const ENVIAR_EMAIL = True
 
 ---
 
-## 🖥️ Requisitos
+## Requisitos
 
 - Windows (cualquier versión moderna)
 - Microsoft Excel instalado
@@ -93,7 +93,7 @@ Const ENVIAR_EMAIL = True
 
 ---
 
-## 🚀 Cómo usar
+## Cómo usar
 
 1. Descarga el `.vbs` que necesites
 2. Asegúrate de que los archivos de datos están en tu carpeta `Descargas`
@@ -103,7 +103,7 @@ Const ENVIAR_EMAIL = True
 
 ---
 
-## 📬 Envío por email
+## Envío por email
 
 Por defecto desactivado. Requiere Outlook configurado en el equipo.
 El email se abre en modo borrador para revisarlo antes de enviar.
@@ -111,10 +111,9 @@ Para eliminar esta funcionalidad por completo, basta con borrar la función `Env
 
 ---
 
-## 🙋 Autor
+## Autor
 
-Voluntario de automatización — Cruz Roja  
-Proyecto de mejora de procesos administrativos de RRHH
+Giorgi Gogava
 
 ---
 
